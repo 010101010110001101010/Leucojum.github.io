@@ -19,8 +19,9 @@ body {
 </style>
 </head>
 <body>
-    <a href="javascript:void(0);" onclick="open呪()" style="text-decoration: none;">
-    <h1>呪いについて</h1></a>
+    <a href="javascript:void(0);" onclick="open死()" style="text-decoration: none;">
+    <div style="color: black;">
+        <h1>呪いについて</h1></div></a>
 </body>
 </html>
 
@@ -75,7 +76,7 @@ body {
     </div>
 
 </div>
-<div id="呪Page" style="
+<div id="死Page" style="
     display: none;
   position: fixed;
     top: 0;
@@ -89,7 +90,9 @@ body {
     z-index: 10000;
     overflow-y: auto;
 ">
-<body><h1>緊縛</h1></body>
+<body><h1>死について</h1></body>
+
+
 <div style="
     display: grid;
     grid-template-columns: 35% 65%;
@@ -132,10 +135,10 @@ body {
 </div>
 
     <script>
-function open呪() {
-    document.getElementById("呪Page").style.display = "block";
+function open死() {
+    document.getElementById("死Page").style.display = "block";
 }
- function close呪() {
-    document.getElementById("呪Page").style.display = "none";
+ function close死() {
+    document.getElementById("死Page").style.display = "none";
 }
 </script>
